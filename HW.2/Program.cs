@@ -1,9 +1,13 @@
 ﻿using System;
+using System.Text;
 
 class Program
 {
     static void Main(string[] args)
     {
+        Console.OutputEncoding = UTF8Encoding.UTF8;
+
+
         Console.WriteLine("1. Обмін розрядів у шестизначному числі");
         Console.WriteLine("2. Визначення пори року та дня тижня за датою");
         Console.WriteLine("3. Виведення парних чисел в діапазоні");
